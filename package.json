@@ -1,0 +1,31 @@
+{
+  "name": "wirepeek-decoders",
+  "version": "1.0.0",
+  "description": "Pure decoders for real-time WebSocket payloads: engine.io/socket.io framing, MessagePack, CBOR, Thrift compact, JWT, gzip, LZ4, base64- and op-code-wrapped JSON. No DOM, no browser-extension APIs.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "engine.io",
+    "messagepack",
+    "cbor",
+    "thrift",
+    "decoder",
+    "devtools"
+  ],
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
